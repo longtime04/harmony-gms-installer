@@ -10,12 +10,12 @@
 
 ## 下载（长期链接）
 
-成品安装包（v1.1，含全部 payload，开箱即用）：
+成品安装包（v1.2，含全部 payload，开箱即用）：
 
 **https://github.com/longtime04/harmony-gms-installer/releases/latest/download/GMS-Setup.apk**
 
 - 文件大小：约 197 MB
-- SHA-256：`cafaa24e287badf269b8b0adcfc5014f7d2c1cc789a37418fa0d918c4e99c9d0`
+- SHA-256：`c31e66a41720baa028bde0fc99b23ae34f319bd75d20bf9913602b421127a4cb`
 - 自己构建请看下面「构建」一节；只想用现成的，点上面链接即可（链接长期有效，版本更新后地址不变）
 
 ## 支持范围（先看这里）

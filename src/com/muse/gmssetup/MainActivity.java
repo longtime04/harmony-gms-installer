@@ -128,6 +128,23 @@ public class MainActivity extends Activity {
         root.addView(scroll, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, 0, 1f));
 
+        TextView ghLink = new TextView(this);
+        ghLink.setText("作者 GitHub 主页：github.com/longtime04（点这里打开）");
+        ghLink.setTextSize(13);
+        ghLink.setTextColor(Color.rgb(30, 136, 229));
+        ghLink.setGravity(Gravity.CENTER);
+        ghLink.setPadding(dp(12), dp(10), dp(12), dp(12));
+        ghLink.setOnClickListener(v -> {
+            try {
+                startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://github.com/longtime04")));
+            } catch (Exception e) {
+                Toast.makeText(this, "打不开浏览器，请手动访问 github.com/longtime04",
+                        Toast.LENGTH_LONG).show();
+            }
+        });
+        root.addView(ghLink);
+
         setContentView(root);
     }
 
