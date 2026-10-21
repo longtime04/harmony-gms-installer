@@ -1,0 +1,6 @@
+build/
+*.apk
+*.jks
+*.keystore
+assets/payload/*.apk
+assets/payload/*.zip
